@@ -1,9 +1,7 @@
 import time
 import os
 
-# ==========================================
 # BAGIAN 1: STRUKTUR DATA (ADT ARRAY)
-# ==========================================
 class Array:
     """
     Ini adalah implementasi ADT Array.
@@ -31,9 +29,7 @@ class Array:
         for i in range(len(self._items)):
             self._items[i] = value
 
-# ==========================================
 # BAGIAN 2: PAPAN PERMAINAN (GRID)
-# ==========================================
 class LifeGrid:
     """
     Ini merepresentasikan papan permainan 2 Dimensi.
@@ -103,9 +99,7 @@ class LifeGrid:
                         
         return live_neighbors
 
-# ==========================================
 # BAGIAN 3: LOGIKA UTAMA (SIMULASI)
-# ==========================================
 
 def draw(grid):
     """Fungsi untuk menggambar grid ke layar terminal"""
@@ -189,4 +183,5 @@ def main():
 
 # Menjalankan program utama
 if __name__ == "__main__":
+
     main()
